@@ -1,5 +1,3 @@
-# PSADS下面是我建议你直接放到 GitHub 的精简正式版：
-
 # PSADS: ADS-Optimized Zone-Based SMOGN Data Generator
 
 This repository provides the implementation of **PSADS (Partitioned SMOGN with Adaptive Data Selection)** for synthetic data generation in small-sample, cross-region maize yield prediction.
