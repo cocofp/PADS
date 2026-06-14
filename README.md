@@ -1,6 +1,6 @@
-# PSADS: ADS-Optimized Zone-Based SMOGN Data Generator
+# PADS: ADS-Optimized Zone-Based SMOGN Data Generator
 
-This repository provides the implementation of **PSADS (Partitioned SMOGN with Adaptive Data Selection)** for synthetic data generation in small-sample, cross-region maize yield prediction.
+This repository provides the implementation of **PADS (Partitioned Adaptive Data Synthesis)** for synthetic data generation in small-sample, cross-region maize yield prediction.
 
 The script refines zone-based SMOGN-generated candidate samples by selecting synthetic samples with higher authenticity, consistency, and diversity.
 
@@ -33,13 +33,13 @@ The script refines zone-based SMOGN-generated candidate samples by selecting syn
 pip install pandas numpy scikit-learn scipy lightgbm
 Usage
 
-Before running the script, modify the path settings in PSADS.py according to your local directory structure:
+Before running the script, modify the path settings in PADS.py according to your local directory structure:
 
 ROOT_DIR = Path(r"your/project/path")
 
 Then run:
 
-python PSADS.py
+python PADS.py
 Input Data
 
 The script requires:
